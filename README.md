@@ -113,3 +113,11 @@
 ##### delete Inventory by id Delete(/api/v1/inventory/{id})
 ```
 ```
+
+-----------------------------------------------
+#### api-gateway-p 8765
+-----------------------------------------------
+
+```
+http://localhost:8765/{name of any microservice registered with eureka}/endpoint
+```
